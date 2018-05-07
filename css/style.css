@@ -1,0 +1,114 @@
+body{
+  padding:10px;
+}
+.titill{
+  text-align:center;
+  color:black;
+  padding:2px;
+  margin-top: 50px;
+  padding-top:5px;
+  font-size:50px;
+  font-family:Berkshire Swash;
+ 
+}
+h2 {color:black;
+padding:10px;
+font-size:35px;
+  font-family: Cinzel;
+  text-align :center;
+ 
+}
+
+.footer{
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: Deeppink;
+    color: black;
+    text-align: center;
+ 
+}
+#navbar{
+position: fixed;
+  padding:5px;
+}
+
+.p{
+  font-family:Quattrocento Sans;
+  padding:10px;
+  text-align: center;
+}
+
+.menu-bar{width:30px;
+  height:4px;
+  background-color:black;
+  margin:6px 0;
+  body: 4px 4px;
+ 
+}
+.menu-icon{
+  z-index: 1;
+  margin: 10px;   
+}
+#navbar{
+  text-align:center;
+  width: 100%;
+}
+a:hover{
+  background-color: deeppink;
+}
+@media(min-width:991px){
+  .menu-icon{display:block;}
+  #navbar{display:none;}
+}
+.menu-open{
+  display:none;
+  right:50px;
+  text-align: center;
+}
+.menu-item{
+  color:black;
+padding:14px 16px;
+ margin:20px;
+ 
+    }
+
+.name{
+  padding-top:15px;
+  padding: 10px 12px;
+  font-size: 20px;
+  text-align:center;
+  font-family: Abril Fatface
+}
+.date{
+  padding: 10px;
+ text-align:center;
+  font-family: Neuton;
+}
+.nafn{
+  padding: 10px;
+  text-align:center;
+  font-family: Quattrocento Sans;
+}
+.hall{
+  padding: 10px;
+  text-align:center;
+  font-family: Quattrocento Sans;
+}
+.userGroup{
+  padding: 10px;
+  text-align:center;
+  font-family: Quattrocento Sans;
+}
+.img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 40%;
+  padding:15px;
+  padding-bottom: 100px;
+}
+.otengt {
+  color: red;
+}
